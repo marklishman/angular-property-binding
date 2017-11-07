@@ -18,12 +18,12 @@ export class PropertyComponent {
     name: 'Turanga Leela',
     sex: 'f',
     rating: 4,
-    photo: 'assets/images/leela.jpg?raw=true'
+    photo: 'assets/images/leela.jpg'
   };
   male = {
     name: 'Philip J. Fry',
     sex: 'm',
-    photo: 'assets/images/fry.jpg?raw=true'
+    photo: 'assets/images/fry.jpg'
   };
-  person = this.female;
+  person: any = this.female;
 }
