@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
     <p [hidden]="!count.valueAsNumber">Rating:
       <span [title]="rating(count.value) + (star ? ' You\\'re a star!' : '')"
             [innerHTML]="symbol.repeat(count.value)">
-            </span>
+      </span>
     </p>`
 })
 export class ExpressionComponent {
